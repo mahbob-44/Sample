@@ -5,7 +5,7 @@ body{
     background-color: #EDEDED;;
 }
 .width-95{
-    width: 95%;
+    width: 90%;
 }
 .width-70{
     width: 70%;
@@ -14,7 +14,7 @@ body{
     width: 50%;
 }
 .width-30{
-    width: 40%;
+    width: 30%;
 }
 *{
     font-family: Nantes;
@@ -55,4 +55,17 @@ body{
 
 footer{
     background-color: rgba(230, 230, 230, 1);
+}
+
+
+.masina{
+    font-family:sans-serif;
+}
+
+
+@media screen and (max-width : 576px){
+    .footer-container{
+        flex-direction: column;
+        gap:20px;
+    }
 }
